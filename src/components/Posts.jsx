@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import BarChart from "./BarChart";
 
 const Posts = ({ posts }) => {
   const [data, setData] = useState(null);
@@ -32,7 +33,7 @@ const Posts = ({ posts }) => {
     setData(temp);
   }, []);
 
-  return <div>{data? <Chart posts={data}/>: ''}</div>;
+  return <div>{data? <BarChart posts={data}/>: ''}</div>;
 };
 
 export default Posts;
