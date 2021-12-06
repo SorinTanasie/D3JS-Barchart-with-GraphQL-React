@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/D3JS-Barchart-with-GraphQL-React/static/css/main.afd7172b.chunk.css",
+    "main.js": "/D3JS-Barchart-with-GraphQL-React/static/js/main.1bc460d2.chunk.js",
+    "main.js.map": "/D3JS-Barchart-with-GraphQL-React/static/js/main.1bc460d2.chunk.js.map",
+    "runtime-main.js": "/D3JS-Barchart-with-GraphQL-React/static/js/runtime-main.cba65f1a.js",
+    "runtime-main.js.map": "/D3JS-Barchart-with-GraphQL-React/static/js/runtime-main.cba65f1a.js.map",
+    "static/js/2.933e13c8.chunk.js": "/D3JS-Barchart-with-GraphQL-React/static/js/2.933e13c8.chunk.js",
+    "static/js/2.933e13c8.chunk.js.map": "/D3JS-Barchart-with-GraphQL-React/static/js/2.933e13c8.chunk.js.map",
+    "index.html": "/D3JS-Barchart-with-GraphQL-React/index.html",
+    "static/css/main.afd7172b.chunk.css.map": "/D3JS-Barchart-with-GraphQL-React/static/css/main.afd7172b.chunk.css.map",
+    "static/js/2.933e13c8.chunk.js.LICENSE.txt": "/D3JS-Barchart-with-GraphQL-React/static/js/2.933e13c8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cba65f1a.js",
+    "static/js/2.933e13c8.chunk.js",
+    "static/css/main.afd7172b.chunk.css",
+    "static/js/main.1bc460d2.chunk.js"
+  ]
+}
