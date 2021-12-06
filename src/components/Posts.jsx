@@ -18,6 +18,18 @@ const Posts = ({ posts }) => {
       { month: "November", totalPosts: 0 },
       { month: "December", totalPosts: 0 },
     ];
+
+    posts.map((post) => {
+      const toDate = new Date(parseInt(post.createdAt));
+
+      const createdYear = toDate.getFullYear();
+      const createdMonth = toDate.getMonth();
+
+      if (createdYear === 2019) {
+        temp[createdMonth].totalPosts += 1;
+      }
+    });
+    setData(temp);
   }, []);
 
   return <div></div>;
