@@ -32,7 +32,7 @@ const Posts = ({ posts }) => {
     setData(temp);
   }, []);
 
-  return <div></div>;
+  return <div>{data? <Chart posts={data}/>: ''}</div>;
 };
 
 export default Posts;
