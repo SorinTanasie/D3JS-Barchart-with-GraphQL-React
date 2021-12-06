@@ -1,4 +1,5 @@
 {
+  "homepage": "https://sorintanasie.github.io/D3JS-Barchart-with-GraphQL-React",
   "name": "d3js-test",
   "version": "0.1.0",
   "private": true,
@@ -36,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
