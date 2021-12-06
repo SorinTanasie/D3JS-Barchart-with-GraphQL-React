@@ -1,5 +1,26 @@
-const Posts = () =>{
-    return(<div></div>)
-}
+import React, { useEffect, useState } from "react";
+
+const Posts = ({ posts }) => {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    const temp = [
+      { month: "January", totalPosts: 0 },
+      { month: "February", totalPosts: 0 },
+      { month: "March", totalPosts: 0 },
+      { month: "April", totalPosts: 0 },
+      { month: "May", totalPosts: 0 },
+      { month: "June", totalPosts: 0 },
+      { month: "July", totalPosts: 0 },
+      { month: "August", totalPosts: 0 },
+      { month: "September", totalPosts: 0 },
+      { month: "October", totalPosts: 0 },
+      { month: "November", totalPosts: 0 },
+      { month: "December", totalPosts: 0 },
+    ];
+  }, []);
+
+  return <div></div>;
+};
 
 export default Posts;

@@ -1,7 +1,8 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import { query } from "./queries/queryPosts";
-import { request } from 'graphql-request';
+import { request } from "graphql-request";
+import Posts from "./components/Posts";
 
 const App = () => {
   const [posts, setPosts] = useState(null);
@@ -12,7 +13,7 @@ const App = () => {
     );
   }, []);
 
-  return <div className="App"></div>;
+  return <div className="App">{posts ? <Posts posts={posts} /> : ""}</div>;
 };
 
 export default App;
